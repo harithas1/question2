@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    height: 550px;
+    width: 500px;
+    border: 2px solid;
+    padding: 40px;
+    position: relative;
+}
+
+.input-tags{
+    position: absolute;
+    left: 200px;
+    padding: 5px;
+}
+
+div{
+    margin-bottom: 6px;
+}
+
+span{
+    color: red;
+}
+
+select{
+    width: 190px;
+}
+

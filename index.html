@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="">
+        <div class="container">
+            <div>
+                <label for="company">Company</label>
+                <input type="text" name="company" id="company" class="input-tags">
+            </div><br>
+            <div>
+                <label for="fullname">Full Name</label><span>*</span>
+                <input type="text" name="fullname" id="fullname" value="Master Chief" class="input-tags" required>
+            </div><br>
+            <div>
+                <label for="address1">Address Line 1</label> <span>*</span>
+                <input type="text" name="address1" id="address1" value="117 John Spartan Lane" class="input-tags" required>
+            </div><br>
+            <div>
+                <label for="address2"> Address Line 2</label>
+                <input type="text" name="address2" id="address2" class="input-tags">
+            </div><br>
+            <div>
+                <label for="city">City</label><span>*</span>
+                <input type="text" name="city" id="city" value="Old Mombasa" class="input-tags" required>
+            </div><br>
+            <div>
+                <label for="country">Country</label><span>*</span>
+                <select name="country" id="country" class="input-tags" required>
+                    <option value="United States of America">Select your country</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="state">State</label><span>*</span>
+                <select name="state" id="state" class="input-tags" required>
+                    <option value="Florida">Select your state</option>
+                </select>
+            </div><br>
+            <div>
+                <label for="zip">Zip</label> <span>*</span>
+                <input type="number" name="zip" id="zip" class="input-tags" required>
+            </div><br>
+            <div>
+                <label for="phone">Phone</label>
+                <input type="tel" name="phone" id="phone" class="input-tags">
+            </div><br>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="input-tags">
+            </div><br>
+            <p><span>*</span>Denotes a required field</p>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
